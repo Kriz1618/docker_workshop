@@ -1,0 +1,6 @@
+FROM node:8.16.0-jessie
+
+COPY . /srv/www/folder_b
+WORKDIR /srv/www/folder_b
+
+CMD node index.js

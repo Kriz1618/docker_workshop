@@ -1,0 +1,7 @@
+version: "3"
+services:
+  wait:
+    build:
+      context: ./waitService/
+      dockerfile: dockerfile
+    container_name: wait-service

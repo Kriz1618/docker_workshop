@@ -1,0 +1,7 @@
+FROM node:8.16.0-jessie
+
+COPY . /srv/www/folder_c
+WORKDIR /srv/www/folder_c
+RUN npm i --silent
+
+CMD npm start

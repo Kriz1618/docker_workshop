@@ -1,0 +1,6 @@
+FROM python:3.6.8-jessie
+
+COPY . /srv/www/folder_a
+WORKDIR /srv/www/folder_a
+
+CMD python index.py
